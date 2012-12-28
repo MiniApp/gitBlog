@@ -1,11 +1,306 @@
-����---
-����layout: default
-����title: �뱭�̻� | ������һ�����Github�Ĳ���
-����---
-����<h2>{{ page.title }}</h2>
-����<p>��������</p>
-����<ul>
-��������{% for post in site.posts %}
-������������<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-��������{% endfor %}
-����</ul>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Zhenyu's Blog</title>
+    <meta name="description" content="张振宇的博客">
+    <meta name="author" content="张振宇">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/abel/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/abel/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/abel/css/pygments.css?body=1" rel="stylesheet" type="text/css" media="all">    
+
+	<link rel="shortcut icon" href="assets/image/favicon.ico">
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  	 <link id="RSSLink" title="RSS" type="application/rss+xml" rel="alternate" href="/atom.xml" />
+
+  	 
+  	 
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">Zhenyu's Blog</a>
+          <ul class="nav">
+            
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/about.html">About Zhenyu</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+          <a href="/atom.xml"><img alt="rss feed" src="/assets/image/rss.png"></a>      
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        
+<div class="page-header">
+  <span class="signature">陌上发花，可以缓缓醉矣， 忍把浮名，换了浅酌低唱。</span>
+</div>
+
+<div class="row">
+  <div class="span12">
+    <table colspan='0' rowspan='0' width='100%'>
+<tr>
+<td width='70%'>
+	<div class='home-page-content'>
+		
+		<div class='home-page-post'>
+			<div class='post-header'>
+				<div class='date'>10 Sep 2012</div>
+				<div class='tags'> 
+					<label>Tags: </label>Github Pages, Jekyll, and Jekyll-Bootstrap
+				</div>
+				<div class='category'> 
+					<label>Category: </label>
+					<span>搭建博客</span>
+				</div>
+			</div>
+			<div class='post-content'>
+				<div class='title'><a href='/blog/2012/09/10/avoid-dependency-of-github-pages-jekyll'>避免依赖Github Pages和Jekyll生成静态文件</a></div>
+				<div class='abstract'><p>之前用Github Pages + Jekyll搭建了自己的博客，有一次玩Jekyll插件之后，博客里所有使用Pygments的代码高亮都不工作了， 即使revert代码也无济于事，更奇怪的是，本地运行jekyll完全没问题，折腾很久都没有解决&#8230; 最后，我只好采取了终极解决方案了。</p></div>
+				<div style='float:right;'><a href='/blog/2012/09/10/avoid-dependency-of-github-pages-jekyll'>阅读全文</a></div>
+			</div>
+			
+			<div class='post-footer'>&nbsp;</div>
+			
+		</div>
+		
+		<div class='home-page-post'>
+			<div class='post-header'>
+				<div class='date'>03 Sep 2012</div>
+				<div class='tags'> 
+					<label>Tags: </label>Github Pages, Jekyll, and SEO
+				</div>
+				<div class='category'> 
+					<label>Category: </label>
+					<span>搭建博客</span>
+				</div>
+			</div>
+			<div class='post-content'>
+				<div class='title'><a href='/blog/2012/09/03/blog-with-github-pages-and-jekyll-seo'>Github Pages + Jekyll搭建博客之SEO</a></div>
+				<div class='abstract'><p>在用Github Pages + Jekyll搭建博客的过程中，学到了不少SEO（Search Engine Optimization）的知识，比如如何让博客被搜索引擎收录，需要注意哪些以提高排名等等。于是，便有了下面几条简单的总结。</p></div>
+				<div style='float:right;'><a href='/blog/2012/09/03/blog-with-github-pages-and-jekyll-seo'>阅读全文</a></div>
+			</div>
+			
+			<div class='post-footer'>&nbsp;</div>
+			
+		</div>
+		
+		<div class='home-page-post'>
+			<div class='post-header'>
+				<div class='date'>31 Aug 2012</div>
+				<div class='tags'> 
+					<label>Tags: </label>Jekyll and Pygments
+				</div>
+				<div class='category'> 
+					<label>Category: </label>
+					<span>搭建博客</span>
+				</div>
+			</div>
+			<div class='post-content'>
+				<div class='title'><a href='/blog/2012/08/31/highlight-with-Jekyll-and-Pygments'>用Jekyll和Pygments配置代码高亮</a></div>
+				<div class='abstract'><p>Jekyll默认的代码段样式太丑了，而且不支持语法高亮。不过，Jekyll原生支持语法高亮工具Pygments。Pygments支持超过100种语言， 并且支持多种输出格式，比如HTML, RTF等等。</p></div>
+				<div style='float:right;'><a href='/blog/2012/08/31/highlight-with-Jekyll-and-Pygments'>阅读全文</a></div>
+			</div>
+			
+			<div class='post-footer'>&nbsp;</div>
+			
+		</div>
+		
+		<div class='home-page-post'>
+			<div class='post-header'>
+				<div class='date'>29 Aug 2012</div>
+				<div class='tags'> 
+					<label>Tags: </label>Github Pages, Jekyll, and Jekyll-Bootstrap
+				</div>
+				<div class='category'> 
+					<label>Category: </label>
+					<span>搭建博客</span>
+				</div>
+			</div>
+			<div class='post-content'>
+				<div class='title'><a href='/blog/2012/08/29/blogging-like-a-geek'>像极客一样写博客</a></div>
+				<div class='abstract'><p>我以前用过csdn，iteye和cnblog的博客，始终不能令我满意。样式不喜欢，广告太多，富文本编辑器局限，等等等等问题， 所以每次更换博客后最终都是一个结果，太监了（好吧，我承认主要是因为懒惰&#8230;）。也想过学其他同事那样，买个酷酷的域名， 租个空间，再用WordPress搭个自己的博客，不过可惜，这种方式对我还是没啥驱动力&#8230; 日复一日，年复一年，直到有一天， GitHub Pages和Jekyll横空出世，瞬间点亮了我辈以极客自诩的屌丝程序员的双眼！</p></div>
+				<div style='float:right;'><a href='/blog/2012/08/29/blogging-like-a-geek'>阅读全文</a></div>
+			</div>
+			
+			<div class='post-footer'>&nbsp;</div>
+			
+		</div>
+		
+		<div class='home-page-post'>
+			<div class='post-header'>
+				<div class='date'>01 Jul 2012</div>
+				<div class='tags'> 
+					<label>Tags: </label>nHibernate and Mapping By Code
+				</div>
+				<div class='category'> 
+					<label>Category: </label>
+					<span>Tech</span>
+				</div>
+			</div>
+			<div class='post-content'>
+				<div class='title'><a href='/blog/2012/07/01/nHibernateMappingByCode-OneToOne'>nHibernate Mapping By Code - One to One</a></div>
+				<div class='abstract'><p>nHibernate提供两种one to one关联： * primary key associations * unique foreign key associations 下面分别用mapping by code的方式配置这两种关联。关于如何配置nhibernate使用mapping by code， 参考nHibernate Mapping By Code - Introduction</p></div>
+				<div style='float:right;'><a href='/blog/2012/07/01/nHibernateMappingByCode-OneToOne'>阅读全文</a></div>
+			</div>
+			
+		</div>
+		
+	</div>
+</td>
+
+<td style='vertical-align:top;' width='30%'>
+	<div class='home-page-sidebar'>
+		<div class='sidebar-title'>文章分类</div>
+		<div>
+			<ul class='tag_box inline'>
+			
+			
+
+
+  
+     
+    	<li><a href='/categories.html#Tech-ref'>
+    		Tech <span>6</span>
+    	</a></li>
+     
+    	<li><a href='/categories.html#搭建博客-ref'>
+    		搭建博客 <span>4</span>
+    	</a></li>
+    
+  
+
+
+			</ul>
+		</div>
+		<br />
+		<div class='sidebar-title'>标签</div>
+		<div>
+			<ul class='tag_box inline'>
+			  
+			
+
+
+  
+     
+    	<li><a href='/tags.html#Clean Code-ref'>Clean Code <span>1</span></a></li>
+     
+    	<li><a href='/tags.html#Agile-ref'>Agile <span>1</span></a></li>
+     
+    	<li><a href='/tags.html#nHibernate-ref'>nHibernate <span>5</span></a></li>
+     
+    	<li><a href='/tags.html#N+1问题-ref'>N+1问题 <span>1</span></a></li>
+     
+    	<li><a href='/tags.html#Mapping By Code-ref'>Mapping By Code <span>4</span></a></li>
+     
+    	<li><a href='/tags.html#Github Pages-ref'>Github Pages <span>3</span></a></li>
+     
+    	<li><a href='/tags.html#Jekyll-ref'>Jekyll <span>4</span></a></li>
+     
+    	<li><a href='/tags.html#Jekyll-Bootstrap-ref'>Jekyll-Bootstrap <span>2</span></a></li>
+     
+    	<li><a href='/tags.html#Pygments-ref'>Pygments <span>1</span></a></li>
+     
+    	<li><a href='/tags.html#SEO-ref'>SEO <span>1</span></a></li>
+    
+  
+
+
+
+			</ul>
+		</div>
+	</div>
+</td>
+</tr>
+</table><hr /><div style='width:50%;margin-left:auto;margin-right:auto;text-align:center;clear:both;'>
+	<a href='/archive.html'>查看所有10篇文章...</a>
+</div>
+  </div>
+</div>
+
+
+      </div>
+
+      <footer>
+        <p>&copy; 张振宇 2012 - 版权所有，转载请注明出处</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+  </body>
+</html>
+
